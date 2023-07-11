@@ -1,0 +1,42 @@
+.btn {
+  font-family: $font-heading;
+  color: $color-white;
+  font-size: 2rem;
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: 3.636px;
+  border: none;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &__forward {
+    background: linear-gradient(to right, $color-black-light 0, $color-black-light 78.46%, $color-gold 78.46%, $color-gold 100%);
+  }
+
+  &__forward:hover {
+    background: linear-gradient(to right, $color-gold 0, $color-gold 78.46%, $color-black-light 78.46%, $color-black-light 100%);
+  }
+
+  &__previous {
+    background: linear-gradient(to left, $color-black-light 0, $color-black-light 78.46%, $color-gold 78.46%, $color-gold 100%);
+  }
+
+  &__previous:hover {
+    background: linear-gradient(to left, $color-gold 0, $color-gold 78.46%, $color-black-light 78.46%, $color-black-light 100%);
+  }
+
+  &__text {
+    padding: 2.4rem 3.2rem 2.4rem 3.5rem;
+  }
+
+  &__arrow {
+    width: 5.6rem;
+    height: 7.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
