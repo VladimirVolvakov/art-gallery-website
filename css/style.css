@@ -77,3 +77,8 @@ html {
     display: flex;
     justify-content: center;
     align-items: center; }
+
+.hero {
+  height: 80rem;
+  display: flex;
+  justify-content: space-between; }
