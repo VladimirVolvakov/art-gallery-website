@@ -10,17 +10,22 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth; }
 
+a {
+  text-decoration: none; }
+
 .heading-xl, .heading-lg, .heading-md, .heading-sm {
   font-family: "Big Shoulders Display", cursive;
   color: #151515;
   font-style: normal;
   font-weight: 900;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-feature-settings: 'clig' off, 'liga' off; }
 
 .body-md, .body-sm {
   font-family: "Outfit", sans-serif;
   font-style: normal;
-  font-weight: 300; }
+  font-weight: 300;
+  font-feature-settings: 'clig' off, 'liga' off; }
 
 .heading-xl {
   font-size: 9.6rem;
@@ -60,7 +65,7 @@ html {
   display: flex;
   align-items: center;
   cursor: pointer;
-  transition: all 0.3s; }
+  transition: all 0.5s linear; }
   .btn__forward {
     background: linear-gradient(to right, #151515 0, #151515 78.46%, #d5966c 78.46%, #d5966c 100%); }
   .btn__forward:hover {
@@ -80,5 +85,34 @@ html {
 
 .hero {
   height: 80rem;
-  display: flex;
-  justify-content: space-between; }
+  display: flex; }
+  .hero__black {
+    flex: 5;
+    background-color: #151515; }
+  .hero__image {
+    flex: 6;
+    background: url("../../assets/desktop/image-hero.jpg"), lightgray 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; }
+  .hero__text-container {
+    position: absolute;
+    top: 19rem;
+    left: -52.78%;
+    right: -52.78%;
+    display: flex;
+    justify-content: space-between; }
+  .hero__heading {
+    width: 51.4rem; }
+  .hero__cta {
+    width: 35rem;
+    display: flex;
+    flex-direction: column; }
+  .hero__text {
+    width: 100%;
+    margin-bottom: 6.4rem; }
+  .hero__heading-text {
+    color: #fff; }
+  .hero__white {
+    flex: 5;
+    background-color: #fff; }

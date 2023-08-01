@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-  transition: all 0.3s;
+  transition: all 0.5s linear;
 
   &__forward {
     background: linear-gradient(to right, $color-black-light 0, $color-black-light 78.46%, $color-gold 78.46%, $color-gold 100%);
