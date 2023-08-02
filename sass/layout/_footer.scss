@@ -1,0 +1,37 @@
+.footer {
+  background-color: $color-black-light;
+  padding: 5.62% 11.595%;
+  display: flex;
+
+  &__logo {
+    width: 14.59%;
+    min-width: 11rem;
+    margin-right: 12.84%;
+  }
+
+  &__logo-img {
+    width: 100%;
+  }
+
+  &__info {
+    width: 39.34%;
+    min-width: 28rem;
+    margin-right: 25.62%;
+  }
+
+  &__links {
+    min-width: 10rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__link-img {
+    cursor: pointer;
+    transition: transform 0.3s;
+
+    &:hover {
+      transform: scale(1.15);
+      filter: brightness(0) saturate(100%) invert(94%) sepia(16%) saturate(5685%) hue-rotate(311deg) brightness(95%) contrast(74%);
+    }
+  }
+}

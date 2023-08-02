@@ -93,6 +93,31 @@ a {
     justify-content: center;
     align-items: center; }
 
+.footer {
+  background-color: #151515;
+  padding: 5.62% 11.595%;
+  display: flex; }
+  .footer__logo {
+    width: 14.59%;
+    min-width: 11rem;
+    margin-right: 12.84%; }
+  .footer__logo-img {
+    width: 100%; }
+  .footer__info {
+    width: 39.34%;
+    min-width: 28rem;
+    margin-right: 25.62%; }
+  .footer__links {
+    min-width: 10rem;
+    display: flex;
+    justify-content: space-between; }
+  .footer__link-img {
+    cursor: pointer;
+    transition: transform 0.3s; }
+    .footer__link-img:hover {
+      transform: scale(1.15);
+      filter: brightness(0) saturate(100%) invert(94%) sepia(16%) saturate(5685%) hue-rotate(311deg) brightness(95%) contrast(74%); }
+
 .gallery__grid {
   padding: 18rem 0;
   display: grid;
