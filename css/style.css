@@ -53,6 +53,16 @@ a {
   font-size: 1.8rem;
   line-height: 2.8rem; }
 
+.u-text-white {
+  color: #fff; }
+
+.u-gallery-text-width {
+  width: 100%;
+  max-width: 35rem; }
+
+.u-mb-32 {
+  margin-bottom: 3.2rem; }
+
 .btn {
   font-family: "Big Shoulders Display", cursive;
   color: #fff;
@@ -82,6 +92,30 @@ a {
     display: flex;
     justify-content: center;
     align-items: center; }
+
+.gallery__grid {
+  padding: 18rem 0;
+  display: grid;
+  gap: 3rem;
+  grid-template-rows: 40rem 31.3rem 37.7rem;
+  grid-template-columns: 1fr minmax(35rem, 2.7fr) 0.97fr minmax(35rem, 2.7fr) 1fr; }
+  .gallery__grid-text-1 {
+    grid-area: 1 / 2 / 2 / 3;
+    padding-top: 6rem; }
+  .gallery__grid-text-2 {
+    grid-area: 3 / 4 / 4 / 5;
+    background-color: #151515;
+    padding: 15.5% 11.3%; }
+  .gallery__grid-image-1 {
+    grid-area: 1 / 3 / 2 / 5; }
+  .gallery__grid-image-2 {
+    grid-area: 2 / 2 / 4 / 4; }
+  .gallery__grid-image-3 {
+    grid-area: 2 / 4 / 3 / 5; }
+  .gallery__grid-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
 
 .hero {
   height: 80rem;
