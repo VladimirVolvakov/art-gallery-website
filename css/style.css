@@ -56,6 +56,9 @@ a {
 .u-text-white {
   color: #fff; }
 
+.u-text-gold {
+  color: #d5966c; }
+
 .u-gallery-text-width {
   width: 100%;
   max-width: 35rem; }
@@ -92,6 +95,20 @@ a {
     display: flex;
     justify-content: center;
     align-items: center; }
+
+.address {
+  height: 55rem;
+  width: 100%;
+  background-color: #151515;
+  padding: 10.4rem 11.6% 12.8rem;
+  display: flex;
+  justify-content: space-between; }
+  .address__heading {
+    width: 35rem; }
+  .address__info {
+    max-width: 54rem; }
+  .address__post {
+    margin: 2.4rem 0 3.2rem; }
 
 .footer {
   background-color: #151515;
@@ -177,7 +194,9 @@ a {
     background-color: #fff; }
 
 .location {
-  position: relative; }
+  position: relative;
+  height: 68.5rem;
+  width: 100%; }
   .location__map {
     position: absolute;
     z-index: 9;
