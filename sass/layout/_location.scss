@@ -1,0 +1,20 @@
+.location {
+  position: relative;
+
+  &__map {
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    background: lightgray 0px 0px / 100% 100% no-repeat;
+    height: 68.5rem;
+    width: 100%;
+  }
+
+  &__link {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 15.5rem;
+  }
+}
