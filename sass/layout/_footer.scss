@@ -30,8 +30,18 @@
     transition: transform 0.3s;
 
     &:hover {
-      transform: scale(1.15);
+      transform: translateY(-2px) scale(1.15);
       filter: brightness(0) saturate(100%) invert(94%) sepia(16%) saturate(5685%) hue-rotate(311deg) brightness(95%) contrast(74%);
+    }
+
+    &--gold-bg {
+      filter: brightness(0) saturate(100%) invert(6%) sepia(2%) saturate(93%) hue-rotate(314deg) brightness(106%) contrast(96%);
+      transition: transform 0.3s;
+
+      &:hover {
+        transform: translateY(-2px) scale(1.15);
+        filter: none;
+      }
     }
   }
 }

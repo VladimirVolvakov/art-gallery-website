@@ -53,19 +53,6 @@ a {
   font-size: 1.8rem;
   line-height: 2.8rem; }
 
-.u-text-white {
-  color: #fff; }
-
-.u-text-gold {
-  color: #d5966c; }
-
-.u-gallery-text-width {
-  width: 100%;
-  max-width: 35rem; }
-
-.u-mb-32 {
-  margin-bottom: 3.2rem; }
-
 .btn {
   font-family: "Big Shoulders Display", cursive;
   color: #fff;
@@ -132,8 +119,14 @@ a {
     cursor: pointer;
     transition: transform 0.3s; }
     .footer__link-img:hover {
-      transform: scale(1.15);
+      transform: translateY(-2px) scale(1.15);
       filter: brightness(0) saturate(100%) invert(94%) sepia(16%) saturate(5685%) hue-rotate(311deg) brightness(95%) contrast(74%); }
+    .footer__link-img--gold-bg {
+      filter: brightness(0) saturate(100%) invert(6%) sepia(2%) saturate(93%) hue-rotate(314deg) brightness(106%) contrast(96%);
+      transition: transform 0.3s; }
+      .footer__link-img--gold-bg:hover {
+        transform: translateY(-2px) scale(1.15);
+        filter: none; }
 
 .gallery__grid {
   padding: 18rem 0;
@@ -210,3 +203,19 @@ a {
     z-index: 10;
     top: 0;
     left: 15.5rem; }
+
+.u-text-white {
+  color: #fff; }
+
+.u-text-gold {
+  color: #d5966c; }
+
+.u-bg-gold {
+  background-color: #d5966c; }
+
+.u-gallery-text-width {
+  width: 100%;
+  max-width: 35rem; }
+
+.u-mb-32 {
+  margin-bottom: 3.2rem; }
