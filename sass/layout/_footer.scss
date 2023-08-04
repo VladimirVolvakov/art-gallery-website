@@ -3,10 +3,18 @@
   padding: 5.62% 11.595%;
   display: flex;
 
+  @media only screen and (max-width: $bp-900) {
+    padding: 7.45% 5.26%;
+  }
+
   &__logo {
     width: 14.59%;
     min-width: 11rem;
     margin-right: 12.84%;
+
+    @media only screen and (max-width: $bp-900) {
+      margin-right: 8.66%;
+    }
   }
 
   &__logo-img {
@@ -17,6 +25,10 @@
     width: 39.34%;
     min-width: 28rem;
     margin-right: 25.62%;
+
+    @media only screen and (max-width: $bp-900) {
+      margin-right: 17.71%;
+    }
   }
 
   &__links {
