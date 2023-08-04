@@ -30,6 +30,10 @@ a {
 .heading-xl {
   font-size: 9.6rem;
   line-height: 8.8rem; }
+  @media only screen and (max-width: 1200px) {
+    .heading-xl {
+      font-size: 7rem;
+      line-height: 6.5rem; } }
 
 .heading-lg {
   font-size: 7rem;
@@ -47,6 +51,10 @@ a {
   color: #444;
   font-size: 2.2rem;
   line-height: 3.2rem; }
+  @media only screen and (max-width: 1200px) {
+    .body-md {
+      font-size: 1.8rem;
+      line-height: 2.8rem; } }
 
 .body-sm {
   color: #151515;
@@ -155,15 +163,25 @@ a {
 .hero {
   height: 80rem;
   display: flex; }
+  @media only screen and (max-width: 1200px) {
+    .hero {
+      height: 70rem; } }
   .hero__black {
     flex: 5;
     background-color: #151515; }
+    @media only screen and (max-width: 1200px) {
+      .hero__black {
+        display: none; } }
   .hero__image {
     flex: 6;
     background: url("../../assets/desktop/image-hero.jpg"), lightgray 50%;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative; }
+    @media only screen and (max-width: 1200px) {
+      .hero__image {
+        flex: 4;
+        background-position: center; } }
   .hero__text-container {
     position: absolute;
     top: 19rem;
@@ -171,8 +189,19 @@ a {
     right: -52.78%;
     display: flex;
     justify-content: space-between; }
+    @media only screen and (max-width: 1200px) {
+      .hero__text-container {
+        top: 14.5rem;
+        left: 89%;
+        right: auto;
+        width: 34rem;
+        flex-direction: column; } }
   .hero__heading {
     width: 51.4rem; }
+    @media only screen and (max-width: 1200px) {
+      .hero__heading {
+        width: 100%;
+        margin-bottom: 4.8rem; } }
   .hero__cta {
     width: 35rem;
     display: flex;
@@ -180,11 +209,20 @@ a {
   .hero__text {
     width: 100%;
     margin-bottom: 6.4rem; }
+    @media only screen and (max-width: 1200px) {
+      .hero__text {
+        margin-bottom: 4.8rem; } }
   .hero__heading-text {
     color: #fff; }
+    @media only screen and (max-width: 1200px) {
+      .hero__heading-text {
+        color: #151515; } }
   .hero__white {
     flex: 5;
     background-color: #fff; }
+    @media only screen and (max-width: 1200px) {
+      .hero__white {
+        flex: 3; } }
 
 .location {
   position: relative;

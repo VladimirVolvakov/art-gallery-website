@@ -2,9 +2,17 @@
   height: 80rem;
   display: flex;
 
+  @media only screen and (max-width: 1200px) {
+    height: 70rem;
+  }
+
   &__black {
     flex: 5;
     background-color: $color-black-light;
+
+    @media only screen and (max-width: 1200px) {
+      display: none;
+    }
   }
 
   &__image {
@@ -13,6 +21,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+
+    @media only screen and (max-width: 1200px) {
+      flex: 4;
+      background-position: center;
+    }
   }
 
   &__text-container {
@@ -22,10 +35,23 @@
     right: -52.78%;
     display: flex;
     justify-content: space-between;
+
+    @media only screen and (max-width: 1200px) {
+      top: 14.5rem;
+      left: 89%;
+      right: auto;
+      width: 34rem;
+      flex-direction: column;
+    }
   }
 
   &__heading {
     width: 51.4rem;
+
+    @media only screen and (max-width: 1200px) {
+      width: 100%;
+      margin-bottom: 4.8rem;
+    }
   }
 
   &__cta {
@@ -37,14 +63,26 @@
   &__text {
     width: 100%;
     margin-bottom: 6.4rem;
+
+    @media only screen and (max-width: 1200px) {
+      margin-bottom: 4.8rem;
+    }
   }
 
   &__heading-text {
     color: $color-white;
+
+    @media only screen and (max-width: 1200px) {
+      color: $color-black-light;
+    }
   }
 
   &__white {
     flex: 5;
     background-color: $color-white;
+
+    @media only screen and (max-width: 1200px) {
+      flex: 3;
+    }
   }
 }
