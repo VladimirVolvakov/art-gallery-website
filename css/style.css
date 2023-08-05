@@ -42,6 +42,10 @@ a {
 .heading-md {
   font-size: 6rem;
   line-height: 6rem; }
+  @media only screen and (max-width: 75em) {
+    .heading-md {
+      font-size: 5rem;
+      line-height: 4.5rem; } }
 
 .heading-sm {
   font-size: 3.6rem;
@@ -115,7 +119,8 @@ a {
   display: flex; }
   @media only screen and (max-width: 56.25em) {
     .footer {
-      padding: 7.45% 5.26%; } }
+      padding: 7.45% 5.26%;
+      justify-content: space-between; } }
   .footer__logo {
     width: 14.59%;
     min-width: 11rem;
@@ -154,10 +159,19 @@ a {
   display: grid;
   gap: 3rem;
   grid-template-rows: 40rem 31.3rem 37.7rem;
-  grid-template-columns: 1fr minmax(35rem, 2.7fr) 0.97fr minmax(35rem, 2.7fr) 1fr; }
+  grid-template-columns: 1fr minmax(35rem, 2.6fr) 0.97fr minmax(35rem, 2.6fr) 1fr; }
+  @media only screen and (max-width: 56.25em) {
+    .gallery__grid {
+      padding: 12rem 0;
+      gap: 1.1rem;
+      grid-template-rows: 40rem 31.3rem 39.6rem;
+      grid-template-columns: 1fr minmax(27rem, 7.09fr) 2.71fr minmax(27rem, 7.09fr) 1fr; } }
   .gallery__grid-text-1 {
     grid-area: 1 / 2 / 2 / 3;
     padding-top: 6rem; }
+    @media only screen and (max-width: 56.25em) {
+      .gallery__grid-text-1 {
+        padding-top: 3.6rem; } }
   .gallery__grid-text-2 {
     grid-area: 3 / 4 / 4 / 5;
     background-color: #151515;
@@ -267,6 +281,9 @@ a {
 .u-gallery-text-width {
   width: 100%;
   max-width: 35rem; }
+  @media only screen and (max-width: 56.25em) {
+    .u-gallery-text-width {
+      max-width: 22.5rem; } }
 
 .u-mb-32 {
   margin-bottom: 3.2rem; }

@@ -13,6 +13,10 @@
 .u-gallery-text-width {
   width: 100%;
   max-width: 35rem;
+
+  @media only screen and (max-width: $bp-900) {
+    max-width: 22.5rem;
+  }
 }
 
 .u-mb-32 {
