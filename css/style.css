@@ -38,6 +38,10 @@ a {
 .heading-lg {
   font-size: 7rem;
   line-height: 7rem; }
+  @media only screen and (max-width: 75em) {
+    .heading-lg {
+      font-size: 5.5rem;
+      line-height: 5rem; } }
 
 .heading-md {
   font-size: 6rem;
@@ -50,6 +54,10 @@ a {
 .heading-sm {
   font-size: 3.6rem;
   line-height: 3.6rem; }
+  @media only screen and (max-width: 75em) {
+    .heading-sm {
+      font-size: 3.2rem;
+      line-height: 3.2rem; } }
 
 .body-md {
   color: #444;
@@ -106,12 +114,25 @@ a {
   padding: 10.4rem 11.6% 12.8rem;
   display: flex;
   justify-content: space-between; }
+  @media only screen and (max-width: 56.25em) {
+    .address {
+      height: 43.6rem;
+      padding: 8.8rem 5.14% 8rem; } }
   .address__heading {
     width: 35rem; }
+    @media only screen and (max-width: 75em) {
+      .address__heading {
+        width: 22.5rem; } }
   .address__info {
     max-width: 54rem; }
+    @media only screen and (max-width: 75em) {
+      .address__info {
+        width: 39.8rem; } }
   .address__post {
     margin: 2.4rem 0 3.2rem; }
+    @media only screen and (max-width: 75em) {
+      .address__post {
+        margin: 2rem 0; } }
 
 .footer {
   background-color: #151515;

@@ -6,15 +6,32 @@
   display: flex;
   justify-content: space-between;
 
+  @media only screen and (max-width: $bp-900) {
+    height: 43.6rem;
+    padding: 8.8rem 5.14% 8rem;
+  }
+
   &__heading {
     width: 35rem;
+
+    @media only screen and (max-width: $bp-1200) {
+      width: 22.5rem;
+    }
   }
 
   &__info {
     max-width: 54rem;
+
+    @media only screen and (max-width: $bp-1200) {
+      width: 39.8rem;
+    }
   }
 
   &__post {
     margin: 2.4rem 0 3.2rem;
+
+    @media only screen and (max-width: $bp-1200) {
+      margin: 2rem 0;
+    }
   }
 }
