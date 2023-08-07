@@ -8,6 +8,13 @@
     justify-content: space-between;
   }
 
+  @media only screen and (max-width: $bp-700) {
+    padding: 4.8rem 8.53%;
+    flex-direction: column;
+    justify-content: start;
+    gap: 3.8rem;
+  }
+
   &__logo {
     width: 14.59%;
     min-width: 11rem;
@@ -30,12 +37,20 @@
     @media only screen and (max-width: $bp-900) {
       margin-right: 17.71%;
     }
+
+    @media only screen and (max-width: $bp-700) {
+      width: 100%;
+    }
   }
 
   &__links {
     min-width: 10rem;
     display: flex;
     justify-content: space-between;
+
+    @media only screen and (max-width: $bp-700) {
+      width: 10rem;
+    }
   }
 
   &__link-img {

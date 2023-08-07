@@ -159,6 +159,12 @@ a {
     .footer {
       padding: 7.45% 5.26%;
       justify-content: space-between; } }
+  @media only screen and (max-width: 43.75em) {
+    .footer {
+      padding: 4.8rem 8.53%;
+      flex-direction: column;
+      justify-content: start;
+      gap: 3.8rem; } }
   .footer__logo {
     width: 14.59%;
     min-width: 11rem;
@@ -175,10 +181,16 @@ a {
     @media only screen and (max-width: 56.25em) {
       .footer__info {
         margin-right: 17.71%; } }
+    @media only screen and (max-width: 43.75em) {
+      .footer__info {
+        width: 100%; } }
   .footer__links {
     min-width: 10rem;
     display: flex;
     justify-content: space-between; }
+    @media only screen and (max-width: 43.75em) {
+      .footer__links {
+        width: 10rem; } }
   .footer__link-img {
     cursor: pointer;
     transition: transform 0.3s; }
