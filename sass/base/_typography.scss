@@ -34,6 +34,11 @@
     font-size: 5.5rem;
     line-height: 5rem;
   }
+
+  @media only screen and (max-width: $bp-700) {
+    font-size: 5rem;
+    line-height: 4.5rem;
+  }
 }
 
 .heading-md {
