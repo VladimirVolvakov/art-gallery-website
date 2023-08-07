@@ -279,6 +279,9 @@ a {
   @media only screen and (max-width: 56.25em) {
     .location {
       height: 60rem; } }
+  @media only screen and (max-width: 43.75em) {
+    .location {
+      height: 57rem; } }
   .location__map {
     position: absolute;
     z-index: 9;
@@ -290,6 +293,9 @@ a {
     @media only screen and (max-width: 56.25em) {
       .location__map {
         height: 60rem; } }
+    @media only screen and (max-width: 43.75em) {
+      .location__map {
+        height: 57rem; } }
   .location__link {
     position: absolute;
     z-index: 10;
@@ -298,6 +304,9 @@ a {
     @media only screen and (max-width: 56.25em) {
       .location__link {
         left: 5.5rem; } }
+    @media only screen and (max-width: 43.75em) {
+      .location__link {
+        left: 0; } }
 
 .u-text-white {
   color: #fff; }

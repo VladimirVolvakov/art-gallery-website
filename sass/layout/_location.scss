@@ -7,6 +7,10 @@
     height: 60rem;
   }
 
+  @media only screen and (max-width: $bp-700) {
+    height: 57rem;
+  }
+
   &__map {
     position: absolute;
     z-index: 9;
@@ -19,6 +23,10 @@
     @media only screen and (max-width: $bp-900) {
       height: 60rem;
     }
+
+    @media only screen and (max-width: $bp-700) {
+      height: 57rem;
+    }
   }
 
   &__link {
@@ -29,6 +37,10 @@
 
     @media only screen and (max-width: $bp-900) {
       left: 5.5rem;
+    }
+
+    @media only screen and (max-width: $bp-700) {
+      left: 0;
     }
   }
 }
