@@ -6,6 +6,11 @@
     height: 70rem;
   }
 
+  @media only screen and (max-width: $bp-700) {
+    height: 63rem;
+    flex-direction: column;
+  }
+
   &__black {
     flex: 5;
     background-color: $color-black-light;
@@ -26,6 +31,11 @@
       flex: 4;
       background-position: center;
     }
+
+    @media only screen and (max-width: $bp-700) {
+      flex: none;
+      height: 24rem;
+    }
   }
 
   &__text-container {
@@ -40,8 +50,15 @@
       top: 14.5rem;
       left: 89%;
       right: auto;
-      width: 34rem;
+      min-width: 34rem;
       flex-direction: column;
+    }
+
+    @media only screen and (max-width: $bp-700) {
+      top: 27.2rem;
+      left: 4.27%;
+      right: 4.27%;
+      min-width: 28.8rem;
     }
   }
 
@@ -52,12 +69,21 @@
       width: 100%;
       margin-bottom: 4.8rem;
     }
+
+    @media only screen and (max-width: $bp-700) {
+      margin-bottom: 3.2rem;
+    }
   }
 
   &__cta {
     width: 35rem;
     display: flex;
     flex-direction: column;
+
+    @media only screen and (max-width: $bp-700) {
+      width: 100%;
+      min-width: 29rem;
+    }
   }
 
   &__text {
@@ -66,6 +92,10 @@
 
     @media only screen and (max-width: $bp-1200) {
       margin-bottom: 4.8rem;
+    }
+
+    @media only screen and (max-width: $bp-700) {
+      margin-bottom: 3.2rem;
     }
   }
 
@@ -83,6 +113,11 @@
 
     @media only screen and (max-width: $bp-1200) {
       flex: 3;
+    }
+
+    @media only screen and (max-width: $bp-700) {
+      flex: none;
+      height: 39rem;
     }
   }
 }
