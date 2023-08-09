@@ -17,8 +17,16 @@
   @media only screen and (max-width: $bp-900) {
     max-width: 22.5rem;
   }
+
+  @media only screen and (max-width: $bp-700) {
+    max-width: none;
+  }
 }
 
 .u-mb-32 {
   margin-bottom: 3.2rem;
+
+  @media only screen and (max-width: $bp-700) {
+    margin-bottom: 2.1rem;
+  }
 }
