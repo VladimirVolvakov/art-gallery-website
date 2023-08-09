@@ -3,11 +3,11 @@
   height: 68.5rem;
   width: 100%;
 
-  @media only screen and (max-width: $bp-900) {
+  @include respond(md-screen) {
     height: 60rem;
   }
 
-  @media only screen and (max-width: $bp-700) {
+  @include respond(sm-screen) {
     height: 57rem;
   }
 
@@ -20,11 +20,11 @@
     height: 68.5rem;
     width: 100%;
 
-    @media only screen and (max-width: $bp-900) {
+    @include respond(md-screen) {
       height: 60rem;
     }
 
-    @media only screen and (max-width: $bp-700) {
+    @include respond(sm-screen) {
       height: 57rem;
     }
   }
@@ -35,11 +35,11 @@
     top: 0;
     left: 15.5rem;
 
-    @media only screen and (max-width: $bp-900) {
+    @include respond(md-screen) {
       left: 5.5rem;
     }
 
-    @media only screen and (max-width: $bp-700) {
+    @include respond(sm-screen) {
       left: 0;
     }
   }

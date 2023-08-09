@@ -1,0 +1,19 @@
+// Media queries management:
+// Possible values of $breakpoint:
+// - sm-screen (max-width: 700px = 43.75em);
+// - md-screen (max-width: 900px = 56.25em);
+// - lg-screen (max-width: 1200px = 75em).
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == sm-screen {
+    @media only screen and (max-width: 43.75em) { @content };
+  }
+
+  @if $breakpoint == md-screen {
+    @media only screen and (max-width: 56.25em) { @content };
+  }
+
+  @if $breakpoint == lg-screen {
+    @media only screen and (max-width: 56.25em) { @content };
+  }
+}

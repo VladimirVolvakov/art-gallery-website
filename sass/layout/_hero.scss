@@ -2,11 +2,11 @@
   height: 80rem;
   display: flex;
 
-  @media only screen and (max-width: $bp-1200) {
+  @include respond(lg-screen) {
     height: 70rem;
   }
 
-  @media only screen and (max-width: $bp-700) {
+  @include respond(sm-screen) {
     height: 63rem;
     flex-direction: column;
   }
@@ -15,7 +15,7 @@
     flex: 5;
     background-color: $color-black-light;
 
-    @media only screen and (max-width: $bp-1200) {
+    @include respond(lg-screen) {
       display: none;
     }
   }
@@ -27,12 +27,12 @@
     background-repeat: no-repeat;
     position: relative;
 
-    @media only screen and (max-width: $bp-1200) {
+    @include respond(lg-screen) {
       flex: 4;
       background-position: center;
     }
 
-    @media only screen and (max-width: $bp-700) {
+    @include respond(sm-screen) {
       flex: none;
       height: 24rem;
     }
@@ -46,7 +46,7 @@
     display: flex;
     justify-content: space-between;
 
-    @media only screen and (max-width: $bp-1200) {
+    @include respond(lg-screen) {
       top: 14.5rem;
       left: 89%;
       right: auto;
@@ -54,7 +54,7 @@
       flex-direction: column;
     }
 
-    @media only screen and (max-width: $bp-700) {
+    @include respond(sm-screen) {
       top: 27.2rem;
       left: 4.27%;
       right: 4.27%;
@@ -65,12 +65,12 @@
   &__heading {
     width: 51.4rem;
 
-    @media only screen and (max-width: $bp-1200) {
+    @include respond(lg-screen) {
       width: 100%;
       margin-bottom: 4.8rem;
     }
 
-    @media only screen and (max-width: $bp-700) {
+    @include respond(sm-screen) {
       margin-bottom: 3.2rem;
     }
   }
@@ -80,7 +80,7 @@
     display: flex;
     flex-direction: column;
 
-    @media only screen and (max-width: $bp-700) {
+    @include respond(sm-screen) {
       width: 100%;
       min-width: 29rem;
     }
@@ -90,11 +90,11 @@
     width: 100%;
     margin-bottom: 6.4rem;
 
-    @media only screen and (max-width: $bp-1200) {
+    @include respond(lg-screen) {
       margin-bottom: 4.8rem;
     }
 
-    @media only screen and (max-width: $bp-700) {
+    @include respond(sm-screen) {
       margin-bottom: 3.2rem;
     }
   }
@@ -102,7 +102,7 @@
   &__heading-text {
     color: $color-white;
 
-    @media only screen and (max-width: $bp-1200) {
+    @include respond(lg-screen) {
       color: $color-black-light;
     }
   }
@@ -111,11 +111,11 @@
     flex: 5;
     background-color: $color-white;
 
-    @media only screen and (max-width: $bp-1200) {
+    @include respond(lg-screen) {
       flex: 3;
     }
 
-    @media only screen and (max-width: $bp-700) {
+    @include respond(sm-screen) {
       flex: none;
       height: 39rem;
     }

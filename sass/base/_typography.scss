@@ -4,14 +4,14 @@
   font-style: normal;
   font-weight: 900;
   text-transform: uppercase;
-  font-feature-settings: 'clig' off, 'liga' off;
+  font-feature-settings: "clig" off, "liga" off;
 }
 
 %body {
   font-family: $font-body;
   font-style: normal;
   font-weight: 300;
-  font-feature-settings: 'clig' off, 'liga' off;  
+  font-feature-settings: "clig" off, "liga" off;
 }
 
 .heading-xl {
@@ -19,12 +19,12 @@
   font-size: 9.6rem;
   line-height: 8.8rem;
 
-  @media only screen and (max-width: $bp-1200) {
+  @include respond(lg-screen) {
     font-size: 7rem;
     line-height: 6.5rem;
   }
 
-  @media only screen and (max-width: $bp-700) {
+  @include respond(sm-screen) {
     font-size: 6rem;
     line-height: 5.5rem;
   }
@@ -35,12 +35,12 @@
   font-size: 7rem;
   line-height: 7rem;
 
-  @media only screen and (max-width: $bp-1200) {
+  @include respond(lg-screen) {
     font-size: 5.5rem;
     line-height: 5rem;
   }
 
-  @media only screen and (max-width: $bp-700) {
+  @include respond(sm-screen) {
     font-size: 5rem;
     line-height: 4.5rem;
   }
@@ -51,7 +51,7 @@
   font-size: 6rem;
   line-height: 6rem;
 
-  @media only screen and (max-width: $bp-1200) {
+  @include respond(lg-screen) {
     font-size: 5rem;
     line-height: 4.5rem;
   }
@@ -62,7 +62,7 @@
   font-size: 3.6rem;
   line-height: 3.6rem;
 
-  @media only screen and (max-width: $bp-1200) {
+  @include respond(lg-screen) {
     font-size: 3.2rem;
     line-height: 3.2rem;
   }
@@ -74,7 +74,7 @@
   font-size: 2.2rem;
   line-height: 3.2rem;
 
-  @media only screen and (max-width: $bp-1200) {
+  @include respond(lg-screen) {
     font-size: 1.8rem;
     line-height: 2.8rem;
   }
@@ -86,7 +86,7 @@
   font-size: 1.8rem;
   line-height: 2.8rem;
 
-  @media only screen and (max-width: $bp-900) {
+  @include respond(md-screen) {
     font-size: 1.6rem;
     line-height: 2.6rem;
   }

@@ -3,12 +3,12 @@
   padding: 5.62% 11.595%;
   display: flex;
 
-  @media only screen and (max-width: $bp-900) {
+  @include respond(md-screen) {
     padding: 7.45% 5.26%;
     justify-content: space-between;
   }
 
-  @media only screen and (max-width: $bp-700) {
+  @include respond(sm-screen) {
     padding: 4.8rem 8.53%;
     flex-direction: column;
     justify-content: start;
@@ -20,7 +20,7 @@
     min-width: 11rem;
     margin-right: 12.84%;
 
-    @media only screen and (max-width: $bp-900) {
+    @include respond(md-screen) {
       margin-right: 8.66%;
     }
   }
@@ -34,11 +34,11 @@
     min-width: 28rem;
     margin-right: 25.62%;
 
-    @media only screen and (max-width: $bp-900) {
+    @include respond(md-screen) {
       margin-right: 17.71%;
     }
 
-    @media only screen and (max-width: $bp-700) {
+    @include respond(sm-screen) {
       min-width: 25.6rem;
       width: 100%;
     }
@@ -49,7 +49,7 @@
     display: flex;
     justify-content: space-between;
 
-    @media only screen and (max-width: $bp-700) {
+    @include respond(sm-screen) {
       width: 10rem;
     }
   }
