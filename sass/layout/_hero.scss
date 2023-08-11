@@ -22,19 +22,42 @@
 
   &__image {
     flex: 6;
-    background: url('../../assets/desktop/image-hero.jpg'), lightgray 50%;
+    background: url("../../assets/desktop/image-hero.jpg"), lightgray 50%;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+
+    @media only screen and (min-resolution: 192dpi) {
+      flex: 6;
+      background: url("../../assets/desktop/image-hero@2x.jpg"), lightgray 50%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+    }
 
     @include respond(lg-screen) {
       flex: 4;
       background-position: center;
     }
 
+    @include respond2x(lg-screen) {
+      flex: 4;
+      background: url("../../assets/tablet/image-hero@2x.jpg"), lightgray 50%;
+      background-position: center;
+      background-size: cover;
+    }
+
     @include respond(sm-screen) {
       flex: none;
       height: 24rem;
+    }
+
+    @include respond2x(sm-screen) {
+      flex: none;
+      height: 24rem;
+      background: url("../../assets/mobile/image-hero@2x.jpg"), lightgray 50%;
+      background-position: center;
+      background-size: cover;
     }
   }
 
