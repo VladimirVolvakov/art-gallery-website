@@ -345,6 +345,11 @@ a {
     @media only screen and (max-width: 43.75em) {
       .hero__heading {
         margin-bottom: 3.2rem; } }
+    .hero__heading-text {
+      mix-blend-mode: difference; }
+      @media only screen and (max-width: 75em) {
+        .hero__heading-text {
+          mix-blend-mode: normal; } }
   .hero__cta {
     width: 35rem;
     display: flex;

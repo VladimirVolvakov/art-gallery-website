@@ -9,6 +9,10 @@
   "author": "Volodymyr Volvakov (design provided by frontendmentor.io)",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^9.0.0"
+    "autoprefixer": "^10.4.14",
+    "concat": "^1.0.3",
+    "node-sass": "^9.0.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^10.1.0"
   }
 }
