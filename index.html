@@ -19,139 +19,142 @@
     <title>Art gallery website</title>
   </head>
   <body>
-    <section class="hero">
-      <div class="hero__black"></div>
-      <div class="hero__image">
-        <div class="hero__text-container">
-          <div class="hero__heading">
-            <h1 class="heading-xl hero__heading-text">
-              Modern <br />
-              Art Gallery
-            </h1>
+    <main>
+      <section class="hero">
+        <div class="hero__black"></div>
+        <div class="hero__image">
+          <div class="hero__text-container">
+            <div class="hero__heading">
+              <h1 class="heading-xl hero__heading-text">
+                Modern <br />
+                Art Gallery
+              </h1>
+            </div>
+            <div class="hero__cta">
+              <p class="hero__text body-md">
+                The arts in the collection of the Modern Art Gallery all started
+                from a spark of inspiration. Will these pieces inspire you?
+                Visit us and find out.
+              </p>
+              <a href="/location.html" class="btn btn__forward hero__link">
+                <span class="btn__text">Our location</span>
+                <span class="btn__arrow">
+                  <img
+                    src="assets/icon-arrow-right.svg"
+                    alt="View Art gallery location"
+                  />
+                </span>
+              </a>
+            </div>
           </div>
-          <div class="hero__cta">
-            <p class="hero__text body-md">
-              The arts in the collection of the Modern Art Gallery all started
-              from a spark of inspiration. Will these pieces inspire you? Visit
-              us and find out.
+        </div>
+        <div class="hero__white"></div>
+      </section>
+      <section class="gallery">
+        <div class="gallery__grid">
+          <div class="gallery__grid-text-1">
+            <h2 class="heading-md u-gallery-text-width u-mb-32">
+              Your day at the gallery
+            </h2>
+            <p class="body-md u-gallery-text-width">
+              Wander through our distinct collections and find new insights
+              about our artists. Dive into the details of their creative
+              process.
             </p>
-            <a href="/location.html" class="btn btn__forward hero__link">
-              <span class="btn__text">Our location</span>
-              <span class="btn__arrow">
-                <img
-                  src="assets/icon-arrow-right.svg"
-                  alt="View Art gallery location"
-                />
-              </span>
-            </a>
+          </div>
+          <div class="gallery__grid-image-1">
+            <picture class="gallery__grid-photo">
+              <source
+                srcset="
+                  assets/mobile/image-grid-1.jpg    1x,
+                  assets/mobile/image-grid-1@2x.jpg 2x
+                "
+                media="(max-width: 43.75em)"
+              />
+              <source
+                srcset="
+                  assets/tablet/image-grid-1.jpg    1x,
+                  assets/tablet/image-grid-1@2x.jpg 2x
+                "
+                media="(max-width: 56.25em)"
+              />
+              <img
+                srcset="
+                  assets/desktop/image-grid-1.jpg    1x,
+                  assets/desktop/image-grid-1@2x.jpg 2x
+                "
+                src="assets/desktop/image-grid-1@2x.jpg"
+                alt="Gallery Image 1"
+                class="gallery__grid-photo"
+              />
+            </picture>
+          </div>
+          <div class="gallery__grid-image-2">
+            <picture class="gallery__grid-photo">
+              <source
+                srcset="
+                  assets/mobile/image-grid-2.jpg    1x,
+                  assets/mobile/image-grid-2@2x.jpg 2x
+                "
+                media="(max-width: 43.75em)"
+              />
+              <source
+                srcset="
+                  assets/tablet/image-grid-2.jpg    1x,
+                  assets/tablet/image-grid-2@2x.jpg 2x
+                "
+                media="(max-width: 56.25em)"
+              />
+              <img
+                srcset="
+                  assets/desktop/image-grid-2.jpg    1x,
+                  assets/desktop/image-grid-2@2x.jpg 2x
+                "
+                src="assets/desktop/image-grid-2@2x.jpg"
+                alt="Gallery Image 2"
+                class="gallery__grid-photo"
+              />
+            </picture>
+          </div>
+          <div class="gallery__grid-image-3">
+            <picture class="gallery__grid-photo">
+              <source
+                srcset="
+                  assets/mobile/image-grid-3.jpg    1x,
+                  assets/mobile/image-grid-3@2x.jpg 2x
+                "
+                media="(max-width: 43.75em)"
+              />
+              <source
+                srcset="
+                  assets/tablet/image-grid-3.jpg    1x,
+                  assets/tablet/image-grid-3@2x.jpg 2x
+                "
+                media="(max-width: 56.25em)"
+              />
+              <img
+                srcset="
+                  assets/desktop/image-grid-3.jpg    1x,
+                  assets/desktop/image-grid-3@2x.jpg 2x
+                "
+                src="assets/desktop/image-grid-3@2x.jpg"
+                alt="Gallery Image 3"
+                class="gallery__grid-photo"
+              />
+            </picture>
+          </div>
+          <div class="gallery__grid-text-2">
+            <h2 class="heading-md u-text-white u-gallery-text-width u-mb-32">
+              Come &amp; be inspired
+            </h2>
+            <p class="body-md u-text-white u-gallery-text-width">
+              We’re excited to welcome you to our gallery and see how our
+              collections influence you.
+            </p>
           </div>
         </div>
-      </div>
-      <div class="hero__white"></div>
-    </section>
-    <section class="gallery">
-      <div class="gallery__grid">
-        <div class="gallery__grid-text-1">
-          <h2 class="heading-md u-gallery-text-width u-mb-32">
-            Your day at the gallery
-          </h2>
-          <p class="body-md u-gallery-text-width">
-            Wander through our distinct collections and find new insights about
-            our artists. Dive into the details of their creative process.
-          </p>
-        </div>
-        <div class="gallery__grid-image-1">
-          <picture class="gallery__grid-photo">
-            <source
-              srcset="
-                assets/mobile/image-grid-1.jpg    1x,
-                assets/mobile/image-grid-1@2x.jpg 2x
-              "
-              media="(max-width: 43.75em)"
-            />
-            <source
-              srcset="
-                assets/tablet/image-grid-1.jpg    1x,
-                assets/tablet/image-grid-1@2x.jpg 2x
-              "
-              media="(max-width: 56.25em)"
-            />
-            <img
-              srcset="
-                assets/desktop/image-grid-1.jpg    1x,
-                assets/desktop/image-grid-1@2x.jpg 2x
-              "
-              src="assets/desktop/image-grid-1@2x.jpg"
-              alt="Gallery Image 1"
-              class="gallery__grid-photo"
-            />
-          </picture>
-        </div>
-        <div class="gallery__grid-image-2">
-          <picture class="gallery__grid-photo">
-            <source
-              srcset="
-                assets/mobile/image-grid-2.jpg    1x,
-                assets/mobile/image-grid-2@2x.jpg 2x
-              "
-              media="(max-width: 43.75em)"
-            />
-            <source
-              srcset="
-                assets/tablet/image-grid-2.jpg    1x,
-                assets/tablet/image-grid-2@2x.jpg 2x
-              "
-              media="(max-width: 56.25em)"
-            />
-            <img
-              srcset="
-                assets/desktop/image-grid-2.jpg    1x,
-                assets/desktop/image-grid-2@2x.jpg 2x
-              "
-              src="assets/desktop/image-grid-2@2x.jpg"
-              alt="Gallery Image 2"
-              class="gallery__grid-photo"
-            />
-          </picture>
-        </div>
-        <div class="gallery__grid-image-3">
-          <picture class="gallery__grid-photo">
-            <source
-              srcset="
-                assets/mobile/image-grid-3.jpg    1x,
-                assets/mobile/image-grid-3@2x.jpg 2x
-              "
-              media="(max-width: 43.75em)"
-            />
-            <source
-              srcset="
-                assets/tablet/image-grid-3.jpg    1x,
-                assets/tablet/image-grid-3@2x.jpg 2x
-              "
-              media="(max-width: 56.25em)"
-            />
-            <img
-              srcset="
-                assets/desktop/image-grid-3.jpg    1x,
-                assets/desktop/image-grid-3@2x.jpg 2x
-              "
-              src="assets/desktop/image-grid-3@2x.jpg"
-              alt="Gallery Image 3"
-              class="gallery__grid-photo"
-            />
-          </picture>
-        </div>
-        <div class="gallery__grid-text-2">
-          <h2 class="heading-md u-text-white u-gallery-text-width u-mb-32">
-            Come &amp; be inspired
-          </h2>
-          <p class="body-md u-text-white u-gallery-text-width">
-            We’re excited to welcome you to our gallery and see how our
-            collections influence you.
-          </p>
-        </div>
-      </div>
-    </section>
+      </section>
+    </main>
     <footer class="footer">
       <div class="footer__logo">
         <img
