@@ -110,6 +110,7 @@
     width: 35rem;
     display: flex;
     flex-direction: column;
+    align-items: flex-start !important;
 
     @include respond(sm-screen) {
       width: 100%;

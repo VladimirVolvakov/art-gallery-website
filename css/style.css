@@ -353,7 +353,8 @@ a {
   .hero__cta {
     width: 35rem;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    align-items: flex-start !important; }
     @media only screen and (max-width: 43.75em) {
       .hero__cta {
         width: 100%;
