@@ -1,11 +1,12 @@
 # Art gallery website
 
-## Screenshot
+## Screenshots
 
-![Desktop version](./screenshot-full.png)
-![Tablet (landscape) version](./screenshot-900.png)
-![Tablet (portrait) version](./screenshot-700.png)
-![Mobile version](./screenshot-375.png)
+### Main page
+![Desktop version](./screenshot-index.png)
+
+### Location page
+![Desktop version](./screenshot-location.png)
 
 ## Link
 
